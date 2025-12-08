@@ -1,0 +1,11 @@
+# Build results
+bin/
+obj/
+
+# IDE
+.vscode/
+
+# Environment
+.env
+.env.local
+appsettings.*.json

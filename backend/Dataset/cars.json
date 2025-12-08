@@ -1,0 +1,702 @@
+[
+  {
+    "id": 4,
+    "make": "Toyota",
+    "model": "Camry",
+    "owner": "Isabella",
+    "regoExpiry": "2024-12-26"
+  },
+  {
+    "id": 99,
+    "make": "Nissan",
+    "model": "Qashqai",
+    "owner": "Olivia",
+    "regoExpiry": "2025-07-11"
+  },
+  {
+    "id": 100,
+    "make": "Ford",
+    "model": "Mustang",
+    "owner": "Grace",
+    "regoExpiry": "2024-12-08"
+  },
+  {
+    "id": 48,
+    "make": "Mazda",
+    "model": "CX-3",
+    "owner": "Isabella",
+    "regoExpiry": "2025-12-28"
+  },
+  {
+    "id": 77,
+    "make": "Volkswagen",
+    "model": "Passat",
+    "owner": "Olivia",
+    "regoExpiry": "2023-07-04"
+  },
+  {
+    "id": 93,
+    "make": "Subaru",
+    "model": "XV",
+    "owner": "Bob",
+    "regoExpiry": "2024-06-04"
+  },
+  {
+    "id": 25,
+    "make": "Honda",
+    "model": "Jazz",
+    "owner": "Samuel",
+    "regoExpiry": "2025-05-28"
+  },
+  {
+    "id": 55,
+    "make": "Nissan",
+    "model": "Juke",
+    "owner": "Peter",
+    "regoExpiry": "2023-04-01"
+  },
+  {
+    "id": 94,
+    "make": "Subaru",
+    "model": "Forester",
+    "owner": "Peter",
+    "regoExpiry": "2025-05-21"
+  },
+  {
+    "id": 72,
+    "make": "Volkswagen",
+    "model": "Golf",
+    "owner": "Tina",
+    "regoExpiry": "2024-12-16"
+  },
+  {
+    "id": 66,
+    "make": "Nissan",
+    "model": "Qashqai",
+    "owner": "Tina",
+    "regoExpiry": "2023-09-20"
+  },
+  {
+    "id": 74,
+    "make": "Volkswagen",
+    "model": "Passat",
+    "owner": "Tina",
+    "regoExpiry": "2023-10-14"
+  },
+  {
+    "id": 23,
+    "make": "Honda",
+    "model": "Accord",
+    "owner": "Henry",
+    "regoExpiry": "2025-04-15"
+  },
+  {
+    "id": 80,
+    "make": "Volkswagen",
+    "model": "Polo",
+    "owner": "Emma",
+    "regoExpiry": "2025-06-15"
+  },
+  {
+    "id": 76,
+    "make": "Volkswagen",
+    "model": "Polo",
+    "owner": "Leo",
+    "regoExpiry": "2025-03-04"
+  },
+  {
+    "id": 41,
+    "make": "Hyundai",
+    "model": "i30",
+    "owner": "Leo",
+    "regoExpiry": "2024-06-11"
+  },
+  {
+    "id": 30,
+    "make": "BMW",
+    "model": "X3",
+    "owner": "Olivia",
+    "regoExpiry": "2023-10-06"
+  },
+  {
+    "id": 59,
+    "make": "Nissan",
+    "model": "X-Trail",
+    "owner": "Grace",
+    "regoExpiry": "2025-11-20"
+  },
+  {
+    "id": 18,
+    "make": "Honda",
+    "model": "CR-V",
+    "owner": "Mia",
+    "regoExpiry": "2023-01-15"
+  },
+  {
+    "id": 87,
+    "make": "Subaru",
+    "model": "Forester",
+    "owner": "Alice",
+    "regoExpiry": "2025-03-18"
+  },
+  {
+    "id": 68,
+    "make": "Nissan",
+    "model": "Qashqai",
+    "owner": "Emma",
+    "regoExpiry": "2024-07-14"
+  },
+  {
+    "id": 33,
+    "make": "BMW",
+    "model": "X5",
+    "owner": "David",
+    "regoExpiry": "2024-02-24"
+  },
+  {
+    "id": 60,
+    "make": "Nissan",
+    "model": "Juke",
+    "owner": "Charlie",
+    "regoExpiry": "2025-09-11"
+  },
+  {
+    "id": 89,
+    "make": "Subaru",
+    "model": "Impreza",
+    "owner": "Mia",
+    "regoExpiry": "2025-04-17"
+  },
+  {
+    "id": 61,
+    "make": "Nissan",
+    "model": "Qashqai",
+    "owner": "Alice",
+    "regoExpiry": "2025-04-20"
+  },
+  {
+    "id": 85,
+    "make": "Subaru",
+    "model": "Impreza",
+    "owner": "Noah",
+    "regoExpiry": "2023-12-03"
+  },
+  {
+    "id": 13,
+    "make": "Toyota",
+    "model": "RAV4",
+    "owner": "Tina",
+    "regoExpiry": "2025-10-27"
+  },
+  {
+    "id": 45,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "owner": "Isabella",
+    "regoExpiry": "2023-03-14"
+  },
+  {
+    "id": 20,
+    "make": "Honda",
+    "model": "Civic",
+    "owner": "Tina",
+    "regoExpiry": "2024-07-23"
+  },
+  {
+    "id": 37,
+    "make": "Hyundai",
+    "model": "i30",
+    "owner": "Emma",
+    "regoExpiry": "2025-06-13"
+  },
+  {
+    "id": 79,
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "owner": "Peter",
+    "regoExpiry": "2023-08-27"
+  },
+  {
+    "id": 63,
+    "make": "Nissan",
+    "model": "Navara",
+    "owner": "Samuel",
+    "regoExpiry": "2023-10-15"
+  },
+  {
+    "id": 52,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "owner": "Jack",
+    "regoExpiry": "2023-12-14"
+  },
+  {
+    "id": 27,
+    "make": "Ford",
+    "model": "Focus",
+    "owner": "Peter",
+    "regoExpiry": "2023-03-18"
+  },
+  {
+    "id": 73,
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "owner": "Mia",
+    "regoExpiry": "2025-11-19"
+  },
+  {
+    "id": 35,
+    "make": "BMW",
+    "model": "X5",
+    "owner": "Emma",
+    "regoExpiry": "2025-09-27"
+  },
+  {
+    "id": 21,
+    "make": "Honda",
+    "model": "Accord",
+    "owner": "Leo",
+    "regoExpiry": "2023-12-05"
+  },
+  {
+    "id": 78,
+    "make": "Volkswagen",
+    "model": "Passat",
+    "owner": "Charlie",
+    "regoExpiry": "2025-08-26"
+  },
+  {
+    "id": 67,
+    "make": "Nissan",
+    "model": "Juke",
+    "owner": "Karen",
+    "regoExpiry": "2025-03-11"
+  },
+  {
+    "id": 12,
+    "make": "Toyota",
+    "model": "Yaris",
+    "owner": "Tina",
+    "regoExpiry": "2025-06-14"
+  },
+  {
+    "id": 88,
+    "make": "Subaru",
+    "model": "Forester",
+    "owner": "Karen",
+    "regoExpiry": "2025-08-18"
+  },
+  {
+    "id": 28,
+    "make": "Ford",
+    "model": "Focus",
+    "owner": "Olivia",
+    "regoExpiry": "2024-10-19"
+  },
+  {
+    "id": 91,
+    "make": "Subaru",
+    "model": "Forester",
+    "owner": "Tina",
+    "regoExpiry": "2024-04-08"
+  },
+  {
+    "id": 17,
+    "make": "Honda",
+    "model": "Civic",
+    "owner": "Olivia",
+    "regoExpiry": "2023-09-15"
+  },
+  {
+    "id": 75,
+    "make": "Volkswagen",
+    "model": "Passat",
+    "owner": "Alice",
+    "regoExpiry": "2025-03-05"
+  },
+  {
+    "id": 2,
+    "make": "Toyota",
+    "model": "Yaris",
+    "owner": "David",
+    "regoExpiry": "2024-02-08"
+  },
+  {
+    "id": 34,
+    "make": "BMW",
+    "model": "320i",
+    "owner": "Karen",
+    "regoExpiry": "2025-10-18"
+  },
+  {
+    "id": 43,
+    "make": "Hyundai",
+    "model": "Santa Fe",
+    "owner": "Isabella",
+    "regoExpiry": "2024-11-25"
+  },
+  {
+    "id": 19,
+    "make": "Honda",
+    "model": "Civic",
+    "owner": "David",
+    "regoExpiry": "2025-01-09"
+  },
+  {
+    "id": 10,
+    "make": "Toyota",
+    "model": "Camry",
+    "owner": "Jack",
+    "regoExpiry": "2024-09-23"
+  },
+  {
+    "id": 36,
+    "make": "Hyundai",
+    "model": "i30",
+    "owner": "Jack",
+    "regoExpiry": "2023-04-06"
+  },
+  {
+    "id": 65,
+    "make": "Nissan",
+    "model": "X-Trail",
+    "owner": "Samuel",
+    "regoExpiry": "2025-07-18"
+  },
+  {
+    "id": 70,
+    "make": "Kia",
+    "model": "Rio",
+    "owner": "Frank",
+    "regoExpiry": "2024-09-26"
+  },
+  {
+    "id": 49,
+    "make": "Mazda",
+    "model": "CX-5",
+    "owner": "Bob",
+    "regoExpiry": "2024-06-16"
+  },
+  {
+    "id": 14,
+    "make": "Toyota",
+    "model": "Corolla",
+    "owner": "Charlie",
+    "regoExpiry": "2025-03-16"
+  },
+  {
+    "id": 97,
+    "make": "Nissan",
+    "model": "Qashqai",
+    "owner": "Ruby",
+    "regoExpiry": "2023-01-03"
+  },
+  {
+    "id": 54,
+    "make": "Nissan",
+    "model": "Navara",
+    "owner": "Mia",
+    "regoExpiry": "2024-11-22"
+  },
+  {
+    "id": 71,
+    "make": "Kia",
+    "model": "Cerato",
+    "owner": "Samuel",
+    "regoExpiry": "2025-03-15"
+  },
+  {
+    "id": 6,
+    "make": "Toyota",
+    "model": "RAV4",
+    "owner": "Emma",
+    "regoExpiry": "2024-08-14"
+  },
+  {
+    "id": 83,
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "owner": "Charlie",
+    "regoExpiry": "2024-02-10"
+  },
+  {
+    "id": 32,
+    "make": "BMW",
+    "model": "320i",
+    "owner": "Leo",
+    "regoExpiry": "2024-11-12"
+  },
+  {
+    "id": 81,
+    "make": "Volkswagen",
+    "model": "Golf",
+    "owner": "Bob",
+    "regoExpiry": "2023-06-22"
+  },
+  {
+    "id": 53,
+    "make": "Mazda",
+    "model": "CX-5",
+    "owner": "Jack",
+    "regoExpiry": "2024-04-20"
+  },
+  {
+    "id": 24,
+    "make": "Honda",
+    "model": "Civic",
+    "owner": "Jack",
+    "regoExpiry": "2023-09-23"
+  },
+  {
+    "id": 11,
+    "make": "Toyota",
+    "model": "Camry",
+    "owner": "Mia",
+    "regoExpiry": "2024-11-17"
+  },
+  {
+    "id": 82,
+    "make": "Volkswagen",
+    "model": "Polo",
+    "owner": "Isabella",
+    "regoExpiry": "2025-08-10"
+  },
+  {
+    "id": 56,
+    "make": "Nissan",
+    "model": "Qashqai",
+    "owner": "Leo",
+    "regoExpiry": "2023-09-16"
+  },
+  {
+    "id": 31,
+    "make": "BMW",
+    "model": "X1",
+    "owner": "Isabella",
+    "regoExpiry": "2024-07-03"
+  },
+  {
+    "id": 46,
+    "make": "Mazda",
+    "model": "CX-3",
+    "owner": "Ruby",
+    "regoExpiry": "2023-11-07"
+  },
+  {
+    "id": 22,
+    "make": "Honda",
+    "model": "Civic",
+    "owner": "Mia",
+    "regoExpiry": "2024-09-18"
+  },
+  {
+    "id": 96,
+    "make": "Subaru",
+    "model": "Impreza",
+    "owner": "Charlie",
+    "regoExpiry": "2024-05-21"
+  },
+  {
+    "id": 86,
+    "make": "Subaru",
+    "model": "Outback",
+    "owner": "Peter",
+    "regoExpiry": "2025-03-27"
+  },
+  {
+    "id": 42,
+    "make": "Hyundai",
+    "model": "Elantra",
+    "owner": "Frank",
+    "regoExpiry": "2023-12-19"
+  },
+  {
+    "id": 90,
+    "make": "Subaru",
+    "model": "Impreza",
+    "owner": "Olivia",
+    "regoExpiry": "2023-02-20"
+  },
+  {
+    "id": 8,
+    "make": "Toyota",
+    "model": "Yaris",
+    "owner": "Peter",
+    "regoExpiry": "2024-10-15"
+  },
+  {
+    "id": 29,
+    "make": "Ford",
+    "model": "Focus",
+    "owner": "Quinn",
+    "regoExpiry": "2024-09-27"
+  },
+  {
+    "id": 3,
+    "make": "Toyota",
+    "model": "Camry",
+    "owner": "Quinn",
+    "regoExpiry": "2024-08-16"
+  },
+  {
+    "id": 38,
+    "make": "Hyundai",
+    "model": "i30",
+    "owner": "Mia",
+    "regoExpiry": "2023-09-20"
+  },
+  {
+    "id": 5,
+    "make": "Toyota",
+    "model": "Yaris",
+    "owner": "Leo",
+    "regoExpiry": "2023-04-14"
+  },
+  {
+    "id": 62,
+    "make": "Nissan",
+    "model": "Juke",
+    "owner": "Emma",
+    "regoExpiry": "2025-01-17"
+  },
+  {
+    "id": 64,
+    "make": "Nissan",
+    "model": "Navara",
+    "owner": "Samuel",
+    "regoExpiry": "2023-12-12"
+  },
+  {
+    "id": 92,
+    "make": "Subaru",
+    "model": "Forester",
+    "owner": "Grace",
+    "regoExpiry": "2023-05-24"
+  },
+  {
+    "id": 39,
+    "make": "Hyundai",
+    "model": "i30",
+    "owner": "Alice",
+    "regoExpiry": "2023-09-10"
+  },
+  {
+    "id": 40,
+    "make": "Hyundai",
+    "model": "Tucson",
+    "owner": "Noah",
+    "regoExpiry": "2025-11-11"
+  },
+  {
+    "id": 47,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "owner": "Charlie",
+    "regoExpiry": "2023-11-15"
+  },
+  {
+    "id": 26,
+    "make": "Honda",
+    "model": "Civic",
+    "owner": "Charlie",
+    "regoExpiry": "2023-04-24"
+  },
+  {
+    "id": 69,
+    "make": "Kia",
+    "model": "Sorento",
+    "owner": "Ruby",
+    "regoExpiry": "2024-04-18"
+  },
+  {
+    "id": 50,
+    "make": "Mazda",
+    "model": "CX-3",
+    "owner": "Peter",
+    "regoExpiry": "2025-08-10"
+  },
+  {
+    "id": 15,
+    "make": "Honda",
+    "model": "Accord",
+    "owner": "Grace",
+    "regoExpiry": "2023-03-11"
+  },
+  {
+    "id": 98,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "owner": "Henry",
+    "regoExpiry": "2023-01-17"
+  },
+  {
+    "id": 9,
+    "make": "Toyota",
+    "model": "Corolla",
+    "owner": "Tina",
+    "regoExpiry": "2025-08-20"
+  },
+  {
+    "id": 51,
+    "make": "Mazda",
+    "model": "CX-3",
+    "owner": "Henry",
+    "regoExpiry": "2023-06-15"
+  },
+  {
+    "id": 95,
+    "make": "Subaru",
+    "model": "Impreza",
+    "owner": "Samuel",
+    "regoExpiry": "2024-06-25"
+  },
+  {
+    "id": 44,
+    "make": "Mazda",
+    "model": "CX-3",
+    "owner": "Noah",
+    "regoExpiry": "2025-02-09"
+  },
+  {
+    "id": 57,
+    "make": "Nissan",
+    "model": "X-Trail",
+    "owner": "Karen",
+    "regoExpiry": "2025-12-15"
+  },
+  {
+    "id": 7,
+    "make": "Toyota",
+    "model": "Yaris",
+    "owner": "Mia",
+    "regoExpiry": "2023-11-17"
+  },
+  {
+    "id": 58,
+    "make": "Nissan",
+    "model": "X-Trail",
+    "owner": "Leo",
+    "regoExpiry": "2023-12-03"
+  },
+  {
+    "id": 16,
+    "make": "Honda",
+    "model": "CR-V",
+    "owner": "Grace",
+    "regoExpiry": "2023-01-24"
+  },
+  {
+    "id": 1,
+    "make": "Toyota",
+    "model": "Camry",
+    "owner": "Samuel",
+    "regoExpiry": "2023-10-11"
+  },
+  {
+    "id": 84,
+    "make": "Volkswagen",
+    "model": "Polo",
+    "owner": "Tina",
+    "regoExpiry": "2023-06-05"
+  }
+]
