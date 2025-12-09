@@ -1,12 +1,12 @@
 
 using backend.CarHost;
+using backend.NotifyHub;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -19,11 +19,18 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowFrontend", policy =>
         policy.WithOrigins("http://localhost:5173")
               .AllowAnyHeader()
-              .AllowAnyMethod());
+              .AllowAnyMethod()
+              .AllowCredentials());
 });
+
+// Add SignalR services for notifying car registration expiry update to frontend
+builder.Services.AddSignalR();
 
 // Add CarService as a singleton
 builder.Services.AddSingleton<CarService>();
+
+// Configure logging to the console (if not already present by default)
+builder.Logging.AddConsole();
 
 var app = builder.Build();
 
@@ -36,9 +43,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors("AllowFrontend");
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
+
+// Map the RegoHub route for SignalR
+app.MapHub<RegoHub>("/regohub");
 
 app.Run();

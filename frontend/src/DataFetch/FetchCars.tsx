@@ -13,7 +13,6 @@ export const fetchCars = async (search: string) => {
         let response;
         if(search.trim().length === 0)
         {
-            console.log("GOT HERE")
             response = await axios.get<CarResponse>('http://localhost:5000/api/cars');
         }
         else

@@ -698,5 +698,12 @@
     "model": "Polo",
     "owner": "Tina",
     "regoExpiry": "2023-06-05"
+  },
+  {
+    "id": 10005,
+    "make": "Ford",
+    "model": "Model T",
+    "owner": "Henry Ford",
+    "regoExpiry": "2025-11-10"
   }
 ]

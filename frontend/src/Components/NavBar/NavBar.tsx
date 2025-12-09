@@ -1,18 +1,17 @@
-import React, { type JSX } from 'react'
+import { type JSX } from 'react'
 import { Link } from 'react-router-dom'
 
 const navItem = [
     {label: 'Home', to: '/'},
-    {label: 'Rego', to: '/rego'}
+    {label: 'Registration Status', to: '/rego'}
 ]
 
 const NavBar = (): JSX.Element => {
   return (
     <nav className="w-full bg-gray-900 shadow-md">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-            {/* Left side - Logo */}
             <Link to="/" className="text-xl font-semibold hover: text-gray-300">
-                Car Rego Record
+                Car Registration View
             </Link>
 
 

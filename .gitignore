@@ -5,6 +5,10 @@ obj/
 # IDE
 .vscode/
 
+# Word docs
+.docx
+.doc
+
 # Environment
 .env
 .env.local

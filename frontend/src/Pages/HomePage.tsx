@@ -25,7 +25,7 @@ const HomePage = (props: Props) => {
     };
   
     return (
-        <div className="App">
+        <div className="HomePage">
             <h1>Welcome</h1>
             <p className="read-the-docs">
                 Below is the list of cars and their respective registration expiry date.

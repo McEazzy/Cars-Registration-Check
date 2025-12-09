@@ -35,7 +35,8 @@ const Table = ({cars}: Props): JSX.Element => {
             <tr key={car.id}>
                 {TableConfigs.map((val: any) => {
                     return <td className="px-6 py-4 whitespace-nowrap text-gray-700 " key={val.label}>
-                        <Link to="/rego" >{val.render(car)}</Link>
+                        <Link to={`/rego/${car.id}`}>{val.render(car)}</Link>
+                            -{'>'} redirect to the car' registration page
                         </td>
                 })}
             </tr>
