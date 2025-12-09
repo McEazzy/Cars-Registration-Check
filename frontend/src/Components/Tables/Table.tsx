@@ -36,7 +36,6 @@ const Table = ({cars}: Props): JSX.Element => {
                 {TableConfigs.map((val: any) => {
                     return <td className="px-6 py-4 whitespace-nowrap text-gray-700 " key={val.label}>
                         <Link to={`/rego/${car.id}`}>{val.render(car)}</Link>
-                            -{'>'} redirect to the car' registration page
                         </td>
                 })}
             </tr>
@@ -47,7 +46,7 @@ const Table = ({cars}: Props): JSX.Element => {
         <tr>
             {TableConfigs.map((config: any) => {
                 return (
-                    <th className="px-6 py-3 text-left font-semibold text-gray-900 whitespace-nowrap " key = {config.label}>
+                    <th className="px-6 py-3 text-center font-semibold text-gray-900 whitespace-nowrap " key = {config.label}>
                         {config.label}
                     </th>
                 )

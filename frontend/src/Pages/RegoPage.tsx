@@ -1,4 +1,4 @@
-import React, { useEffect, useState, type ChangeEvent, type SyntheticEvent } from 'react'
+import { useEffect, useState, type ChangeEvent, type SyntheticEvent } from 'react'
 import { useSignalR } from '../DataFetch/ReceiveSignalR';
 import RegoTable from '../Components/Tables/RegoTable';
 import type { Car } from '../DataFetch/Car';
@@ -9,12 +9,20 @@ import { useParams } from 'react-router-dom';
 type Props = {}
 
 const RegoPage = (props: Props) => {
-    const connection = useSignalR("http://localhost:5000/regoHub");
     
     let {ticker} = useParams();
     const [search, setSearch] = useState<string>("");
     const [car, setCar] = useState<Car | undefined>();
     const [error, setError] = useState<string | null>(null);
+    const [loadingHub, setLoadingHub] = useState<boolean>(true);
+    
+    // A callback to re-initiate the GET request within useEffect() once SignalR connection succesfully established
+    const handleConnEstablished = () => {
+        setLoadingHub(false);
+    }
+    
+    //establish a connection with SignalR Hub from backend
+    const connection = useSignalR("http://localhost:5000/regoHub", handleConnEstablished);
     
 
     // when there'an updated info from backend via signalR, re-render corresponding values
@@ -33,9 +41,9 @@ const RegoPage = (props: Props) => {
     }, [connection]);
 
     //when re-routed from clicking on existing car record from homepage
-    if(ticker !== undefined)
-    {
-        useEffect(() =>{
+    useEffect(() =>{
+        if(ticker !== undefined)
+        {
             setSearch(ticker);
             const sendID = async () => {
                 
@@ -45,8 +53,8 @@ const RegoPage = (props: Props) => {
             }
 
             sendID();
-        }, [ticker]); // rerun when URL param changes
-    }
+        }
+    }, [ticker, loadingHub]); // rerun when URL param changes
 
     const onClick = async (e: SyntheticEvent) => {
         if (search === "") 
